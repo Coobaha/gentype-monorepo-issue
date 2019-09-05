@@ -1,0 +1,8 @@
+let wrongTsImportsWithCustomNameSpace = CustomSomePackage.Demo.demo;
+
+// if compiled from main package.json packages/shim-demo/src/Demo.gen.tsx gets incorrect shim path
+//      import {t as ToShim_t} from './Shimmed.shim';
+//
+// if compiled from module itself path is correct
+//      import {t as ToShim_t} from '../src/shims/Shimmed.shim';
+type wrongShimImportPath = DemoShimDemo.Demo.t;

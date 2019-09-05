@@ -1,0 +1,30 @@
+{
+	"name": "@demo/some-package",
+	"version": "0.1.0",
+	"sources": {
+		"dir": "src",
+		"subdirs": true
+	},
+	"package-specs": {
+		"module": "commonjs",
+		"in-source": true
+	},
+	"suffix": ".bs.js",
+	"bs-dependencies": [
+	],
+	"warnings": {
+		"error": "+101"
+	},
+	"namespace": "custom-some-package",
+	"refmt": 3,
+	"gentypeconfig": {
+		"language": "typescript",
+		"importPath": "relative",
+		"exportInterfaces": false,
+		"module": "es6",
+		"shims": {
+			"Shimied": "Shimed.shim.ts"
+		},
+		"namespace": true
+	}
+}

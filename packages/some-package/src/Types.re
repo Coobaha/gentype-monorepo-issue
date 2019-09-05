@@ -1,0 +1,1 @@
+type demo = {name: string};
