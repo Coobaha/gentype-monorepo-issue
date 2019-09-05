@@ -9,7 +9,7 @@ This repo shows to issues with gentype
 
     **Steps to reproduce:**
     Should be visible after `npx lerna exec build`, if not
-    1. build `package/some-package`
+    1. build `packages/some-package`
     1. open `Demo.gen.tsx`
 
     **Wrong output** 
@@ -31,15 +31,15 @@ This repo shows to issues with gentype
 2. If gentype is used in dependant module and compilation is done from app module
 
     **Steps to reproduce:**
-    1. build `package/app`
-    1. open `package/shim-demo/Demo.gen.tsx`
+    1. build `packages/app`
+    1. open `packages/shim-demo/Demo.gen.tsx`
     
-    **Output of compilation `package/app`**
+    **Output of compilation `packages/app`**
     ```typescript
     import {t as ToShim_t} from './Shimmed.shim';
     ```
     
-    **Output of local compilation `package/shim-demo`**
+    **Output of local compilation `packages/shim-demo`**
     ```typescript
     import {t as ToShim_t} from '../src/shims/Shimmed.shim';
     ```
