@@ -3,7 +3,7 @@ This repo shows to issues with gentype
 # Setup
 `npx lerna bootstrap`
 
-`npx lerna exec build`
+`npx lerna exec yarn build`
 ## Issues
 1. If custom namespace is used gentype outputs incorrect import paths
 
