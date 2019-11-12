@@ -1,1 +1,2 @@
+[@gentype]
 type t;

@@ -15,7 +15,7 @@
 	"warnings": {
 		"error": "+101"
 	},
-	"namespace": "custom-some-package",
+	"namespace": true,
 	"refmt": 3,
 	"gentypeconfig": {
 		"language": "typescript",

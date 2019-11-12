@@ -1,18 +1,18 @@
 {
-	"name": "@demo/shim-demo",
-	"version": "0.1.0",
-	"scripts": {
-		"build": "bsb -make-world",
-		"start": "bsb -make-world -w",
-		"clean": "bsb -clean-world"
-	},
-	"keywords": [
-		"BuckleScript"
-	],
-	"author": "",
-	"license": "MIT",
-	"devDependencies": {
-		"bs-platform": "^5.0.6",
-		"gentype": "^2.38.0"
-	}
+  "name": "@demo/shim-demo",
+  "license": "MIT",
+  "author": "",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "clean": "bsb -clean-world",
+    "start": "bsb -make-world -w"
+  },
+  "devDependencies": {
+    "bs-platform": "^6.2.1",
+    "gentype": "3.3.0"
+  },
+  "keywords": [
+    "BuckleScript"
+  ]
 }

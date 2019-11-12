@@ -18,5 +18,15 @@
     "error" : "+101"
   },
   "namespace": true,
-  "refmt": 3
+  "refmt": 3,
+  "gentypeconfig": {
+    "language": "typescript",
+    "importPath": "relative",
+    "exportInterfaces": false,
+    "module": "es6",
+    "shims": {
+      "Shimied": "Shimed.shim.ts"
+    },
+    "namespace": true
+  }
 }

@@ -1111,10 +1111,10 @@ braces@^2.3.1:
     split-string "^3.0.2"
     to-regex "^3.0.1"
 
-bs-platform@^5.0.6:
-  version "5.0.6"
-  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-5.0.6.tgz#88c13041fb020479800de3d82c680bf971091425"
-  integrity sha512-6Boa2VEcWJp2WJr38L7bp3J929nYha7gDarjxb070jWzgfPJ/WbzjipmSfnu2eqqk1MfjEIpBipbPz6n1NISwA==
+bs-platform@^6.2.1:
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-6.2.1.tgz#30266c7f23a3b323e1fc9596a9a6eb9f053981b4"
+  integrity sha512-FmQ8kYV52A0Y302qh6o0/J9TO+kHzsjGQnsjrg/ONUYIY/jWzBnt9dCBO6EBnaEKfFJLqk5JrUDCxuihqtTcnw==
 
 btoa-lite@^1.0.0:
   version "1.0.0"
@@ -2033,10 +2033,10 @@ genfun@^5.0.0:
   resolved "https://registry.yarnpkg.com/genfun/-/genfun-5.0.0.tgz#9dd9710a06900a5c4a5bf57aca5da4e52fe76537"
   integrity sha512-KGDOARWVga7+rnB3z9Sd2Letx515owfk0hSxHGuqjANb1M+x2bGZGqHLiozPsYMdM2OubeMni/Hpwmjq6qIUhA==
 
-gentype@^2.38.0:
-  version "2.38.0"
-  resolved "https://registry.yarnpkg.com/gentype/-/gentype-2.38.0.tgz#2a791c0fbdefa63c6968b90d0a80f8f6c286485a"
-  integrity sha512-PQICsOkeahyYf2QAfnm8pMhcP7az/Kf3ui23oWp+4JFf2YcJIw32r2vC9vhwt/3LYLVDDSNBiVlCZoIcIrUXiA==
+gentype@3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/gentype/-/gentype-3.3.0.tgz#a3f618c6a0063081addf8fa64557413e49345cd8"
+  integrity sha512-bMaLjcPkOdvhxsMN5kycWqYogmYip0FdiBqtCST1k2ZpdRYsaVf0s1pb6K66n30lFwhra6S5HrTzax3S7PmR+A==
 
 get-caller-file@^1.0.1:
   version "1.0.3"
