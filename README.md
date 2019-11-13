@@ -1,9 +1,10 @@
 This repo shows to issues with gentype
 
 # Setup
-`npx lerna bootstrap`
+`yarn lerna bootstrap`
+`yarn lerna link`
+`yarn build`
 
-`npx lerna exec yarn build`
 ## Issues
 1. If custom namespace is used gentype outputs incorrect import paths
 
