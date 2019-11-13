@@ -16,6 +16,7 @@
 		"lerna": "^3.10.5"
 	},
 	"scripts": {
+		"bs": "lerna bootstrap && lerna link",
 		"clean": "lerna run clean --parallel --stream --scope @demo/app",
 		"build": "lerna run build --concurrency 1 --stream --scope @demo/app",
 		"watch": "lerna run watch --stream --scope @demo/app"
