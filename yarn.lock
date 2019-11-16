@@ -2033,10 +2033,10 @@ genfun@^5.0.0:
   resolved "https://registry.yarnpkg.com/genfun/-/genfun-5.0.0.tgz#9dd9710a06900a5c4a5bf57aca5da4e52fe76537"
   integrity sha512-KGDOARWVga7+rnB3z9Sd2Letx515owfk0hSxHGuqjANb1M+x2bGZGqHLiozPsYMdM2OubeMni/Hpwmjq6qIUhA==
 
-gentype@3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/gentype/-/gentype-3.4.0.tgz#8ddf682408c2186487d23056d0847f87add482b3"
-  integrity sha512-d1go3xfb1W1xzgXuilyNz0F2hie1bVv/JdztOrn7nuYiLAjoO4RRPHPMdvARzh17fosSOnY192WmhSv0Nx1CYA==
+gentype@3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/gentype/-/gentype-3.4.2.tgz#51ff8e2410dbce6eb617d4af32786c82c165d180"
+  integrity sha512-0VjtYFR2EZgLYRAHi9eLVoTWQqBksBmQTccMiNEo1FUTjMxe7KaD4nViFKKF6uWYsrDLj6IS4vtq5v5VyhCBmQ==
 
 get-caller-file@^1.0.1:
   version "1.0.3"

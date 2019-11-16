@@ -20,6 +20,7 @@
 	"gentypeconfig": {
 		"language": "typescript",
 		"importPath": "relative",
+		"use-bs-dependencies": true,
 		"exportInterfaces": false,
 		"module": "es6",
 		"shims": {

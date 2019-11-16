@@ -21,6 +21,7 @@
   "refmt": 3,
   "gentypeconfig": {
     "language": "typescript",
+    "use-bs-dependencies": true,
     "importPath": "relative",
     "exportInterfaces": false,
     "module": "es6",

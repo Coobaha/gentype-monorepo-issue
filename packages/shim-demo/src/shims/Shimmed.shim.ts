@@ -1,1 +1,1 @@
-type demo = unknown;
+export type t = unknown;
